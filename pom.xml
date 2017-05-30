@@ -35,6 +35,12 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
+		
+<repository>
+ <id>oracle</id>
+ <url>http://maven.jahia.org/maven2</url>
+</repository>		
+		
 	</repositories>
 
 	<dependencies>
@@ -124,10 +130,6 @@
             <version>5.1.31</version>
         </dependency>
 		
-<repository>
- <id>oracle</id>
- <url>http://maven.jahia.org/maven2</url>
-</repository>
 
 <dependency>
  <groupId>com.oracle</groupId>
