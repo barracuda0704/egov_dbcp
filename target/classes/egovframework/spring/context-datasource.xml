@@ -33,9 +33,9 @@
     <!-- oracle -->
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
         <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
-        <property name="url" value="jdbc:oracle:thin:@127.0.0.1:1521:example" />
-        <property name="username" value="user"/>
-        <property name="password" value="password"/>
+        <property name="url" value="jdbc:oracle:thin:@10.25.58.115:1521:DWFMDB" />
+        <property name="username" value="openshift"/>
+        <property name="password" value="openshift!23"/>
     </bean>
     
     
